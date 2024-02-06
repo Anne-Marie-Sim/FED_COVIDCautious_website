@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+}
+
+.navbar {
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Evenly space items */
+  align-items: center; /* Align items vertically */
+  background-color: #c0fbfe; /* Example background color */
+  color: white; /* Example text color */
+  padding: 10px; /* Add padding for better spacing */
+}
+  
