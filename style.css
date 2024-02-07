@@ -62,19 +62,14 @@ li:first-child {
   object-fit: cover;
 }
 
-/*.page-content {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  grid-column-gap: 20px; 
-}*/
-
 #overview {
-  width: 600px;
+  width: 50%/*600px*/;
   margin-left: 100px;
+  float: left;
 }
 
-#vacs{
- 
+/*
+  {
     width: 600px;
     margin-left: 100px;
   }
@@ -83,13 +78,14 @@ li:first-child {
 
   width: 500px;
   margin-left: 100px;
-  /*flex: 70%*/
+  /*flex: 70%
   float: left ; 
-  /*width: 70%;*/
-}
+  /*width: 70%;
+}*/
 
 .articles img{
   border-radius: 10px;
+  height:150px;
 }
 
 .articles{
@@ -97,11 +93,7 @@ li:first-child {
   width: 30%;
 }
 
-.homearticles{
-  float: right ; 
-  width: 30%;
-}
-
-.newsroom{
-  margin-left: 100px;
+.articles span{
+  color: darkslategray;
+  text-decoration: none;
 }
