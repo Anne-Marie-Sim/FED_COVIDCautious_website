@@ -9,9 +9,61 @@
 </head>
 
 <body>
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+  <style>
+    #loader {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: darkslategray;
+      transition: opacity 0.3s;
+    }
+  </style>
+  <div id = "loader">
+    <div id="lottie-loader"></div>
+  </div>
+  <script>
+    window.addEventListener("load",function() {
+      const loader = document.getElementById("loader");
+      setTimeout(function() {
+        loader.style.opacity = "0";
+        setTimeout(function() {
+          loader.style.display = "none";
+        
+        }, 3500);
+      }, 3500);
+    });
+
+    lottie.loadAnimation({
+      container: document.getElementById("lottie-loader"),
+      renderer: "svg",
+      loop: true,
+      path: "https://lottie.host/c2c4d1bb-d643-4dd1-8a34-ec5ddd6226eb/mYLbNKm6x2.json",
+      rendererSettings: {
+        progressiveLoad: false
+      },
+      animationData: null,
+      renderer: 'canvas', 
+      images: null,
+      events: {
+        complete: function() {console.log('Animation Loaded')},
+        error: function(e) {console.error(e)}
+      }
+    });
+    
+  </script>
+  
   <header>
     <strong><p style="font-size: 40px; margin-bottom: 10px; text-align: center; color: darkslategray;">Pandemic Pursuit</p></strong>
   </header>
+  <div>
+
 
   <ul style="height: 50px;">
     <li><a class="nav-link" a href="home.html"><p style="font-size: 25px;"> Home </p></a></li>
@@ -21,7 +73,7 @@
     <li><a class="nav-link" href="pandemicmap.html"><p style="font-size: 25px;"> PandemicMap </p></a></li>
     
 </ul>
-<div id = "news" style = "text-align: center;"></div>
+
 
 <div id="home" class="page-content"> 
   <div class="grid-wrapper"> </div> 
