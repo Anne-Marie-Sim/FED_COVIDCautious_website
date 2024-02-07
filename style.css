@@ -1,5 +1,7 @@
+
+
 body{
-  background-color: white;
+  background-color: beige;
   max-height: none;
   overflow-x: hidden; 
 }
@@ -7,16 +9,19 @@ body{
 h1 {
   text-align:left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif-;
+  color:darkslategray;
  
 }
 h2 {
   text-align:left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif-;
+  color:darkslategray;
  
 }
 h3{
   text-align:left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif-;
+  color:darkslategray;
  
 }
 p{
@@ -25,7 +30,7 @@ p{
 ul { 
   list-style-type: none; 
   overflow: hidden;
-  background-color: rgb(205, 234, 241); 
+  background-color: darkslategray; 
   display: flex;
   flex-direction: row;
   justify-content: space-around; /* Adjusted to evenly distribute items */
@@ -40,7 +45,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color:white;
   text-align: center; 
   text-decoration: none;
   margin: 0;
@@ -64,6 +69,18 @@ li:first-child {
 }*/
 
 #overview {
+  width: 600px;
+  margin-left: 100px;
+}
+
+#vacs{
+ 
+    width: 600px;
+    margin-left: 100px;
+  }
+
+
+
   width: 500px;
   margin-left: 100px;
   /*flex: 70%*/
