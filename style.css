@@ -1,13 +1,47 @@
+body{
+  background-color: white;
+  max-height: none;
+  overflow-x: hidden; 
+}
 h1 {
   text-align: center;
+  font-family: Pyunji R;
 }
 
-.navbar {
-  display: flex; /* Use flexbox */
-  justify-content: space-between; /* Evenly space items */
-  align-items: center; /* Align items vertically */
-  background-color: #c0fbfe; /* Example background color */
-  color: white; /* Example text color */
-  padding: 10px; /* Add padding for better spacing */
+ul { 
+  list-style-type: none; 
+  overflow: hidden;
+  background-color: aliceblue; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Adjusted to evenly distribute items */
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
-  
+li {
+  margin: 0; 
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center; 
+  text-decoration: none;
+  margin: 0;
+}  
+
+li:first-child {
+  margin-left: 0; /* Remove margin for the first li element */
+}
+
+
+
+
+
+#home-photo {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
