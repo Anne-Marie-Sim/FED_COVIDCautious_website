@@ -1,6 +1,9 @@
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
 
+const scoreEl =document.querySelector('#scoreEl')
+
+
 canvas.width = innerWidth
 canvas.height = innerHeight
 
@@ -45,12 +48,12 @@ class Player {
 }
 
 /*class Pellet {
-    static width = 4
-    static height = 4
+    static width = 40
+    static height = 40
     constructor({ position, image }) {
         this.position = position
-        this.width = 4
-        this.height = 4
+        this.width = 40
+        this.height = 40
         this.image = image
     }
 
@@ -68,7 +71,7 @@ class Pellet {
     draw() {
         c.beginPath()
         c.arc(this.position.x, this.position.y, this.radius, 0, Math.PI * 2)
-        c.fillStyle = 'white'
+        c.fillStyle = 'blue'
         c.fill()
         c.closePath()
     }
@@ -104,6 +107,8 @@ const keys = {
 }
 
 let lastKey = ''
+let score=0
+
 const map = [
     ['1', '-', '-', '-', '-', '-', '-', '-', '-', '-', '2'],
     ['|', '.', '.', '.', '.', '.', '.', '.', '.', '.', '|'],
@@ -315,7 +320,7 @@ map.forEach((row, i) => {
                             x: j * Boundary.width + Boundary.width / 2,
                             y: i * Boundary.height + Boundary.height / 2
                         }//,
-                        //image: createImage('./img/vaccine.png')
+                        //image: createImage('./img/vaccine.png', width=0.5)
                     })
                 )
                 break
@@ -417,9 +422,23 @@ function animate() {
         }
     }
 
-    pellets.forEach((pellet) => {
+    for (let i = pellets.length - 1; 0 < i; i--) {
+        const pellet = pellets[i]
         pellet.draw()
-    })
+
+        if (
+        Math.hypot(
+            pellet.position.x - player.position.x,
+            pellet.position.y - player.position.y
+        ) < 
+        pellet.radius + player.radius
+        ){
+            console.log('touching')
+            pellets.splice(i, 1)
+            score += 10
+            scoreEl.innerHTML = score
+        }
+    }
 
     boundaries.forEach((boundary) => {
         boundary.draw()
