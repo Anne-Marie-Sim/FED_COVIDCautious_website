@@ -17,7 +17,7 @@ function initMap() {
       center: new google.maps.LatLng(51.2538, -85.3232),
     });
 
-    $.fetch("pandemicmap.json", function (data) {
+    $.getJSON("pandemicmap.json", function (data) {
       updateStats(data.latest);
 
       locationData = data.locations.filter(
@@ -50,7 +50,7 @@ function doHeatMap() {
           center: new google.maps.LatLng(51.2538, -85.3232),
         });
 
-        $.fetch("pandemicmap.json", function (data) {
+        $.getJSON("pandemicmap.json", function (data) {
           updateStats(data.latest);
 
           locationData = data.locations.filter(
