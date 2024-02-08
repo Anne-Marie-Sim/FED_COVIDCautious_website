@@ -5,75 +5,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Pandemic Pursuit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  
 </head>
 
 <body>
-  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-  <style>
-    #loader {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: darkslategray;
-      transition: opacity 0.3s;
-    }
-  </style>
-  <div id = "loader">
-    <div id="lottie-loader"></div>
-  </div>
-  <script>
-    window.addEventListener("load",function() {
-      const loader = document.getElementById("loader");
-      setTimeout(function() {
-        loader.style.opacity = "0";
-        setTimeout(function() {
-          loader.style.display = "none";
-        
-        }, 3500);
-      }, 3500);
-    });
-
-    lottie.loadAnimation({
-      container: document.getElementById("lottie-loader"),
-      renderer: "svg",
-      loop: true,
-      path: "https://lottie.host/c2c4d1bb-d643-4dd1-8a34-ec5ddd6226eb/mYLbNKm6x2.json",
-      rendererSettings: {
-        progressiveLoad: false
-      },
-      animationData: null,
-      renderer: 'canvas', 
-      images: null,
-      events: {
-        complete: function() {console.log('Animation Loaded')},
-        error: function(e) {console.error(e)}
-      }
-    });
-    
-  </script>
-  
   <header>
     <strong><p style="font-size: 40px; margin-bottom: 10px; text-align: center; color: darkslategray;">Pandemic Pursuit</p></strong>
   </header>
   <div>
-
-
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    <dotlottie-player src="https://lottie.host/c2c4d1bb-d643-4dd1-8a34-ec5ddd6226eb/mYLbNKm6x2.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
   <ul style="height: 50px;">
     <li><a class="nav-link" a href="home.html"><p style="font-size: 25px;"> Home </p></a></li>
     <li><a class="nav-link" href="newsroom.html"><p style="font-size: 25px;"> Newsroom </p></a></li>
     <li><a class="nav-link" a href="vaccination.html"><p style="font-size: 25px;"> Vaccination </p></a></li>
     <li><a class="nav-link" href="covidrunner.html"><p style="font-size: 25px;"> COVIDRunner </p></a></li>
-    <li><a class="nav-link" href="pandemicmap.html"><p style="font-size: 25px;"> PandemicMap </p></a></li>
-    
-</ul>
+    <li><a class="nav-link" href="pandemicmap.html"><p style="font-size: 25px;"> PandemicMap </p></a></li> 
+  </ul>
 
+<div id = "news" style = "text-align: center;"></div>
 
 <div id="home" class="page-content"> 
   <div class="grid-wrapper"> </div> 
@@ -134,9 +85,13 @@
             2. Wear a properly fitted mask if you feel sick, have been close to people who are sick, if you are at high-risk, or in crowded or poorly ventilated areas;<br>
             3. Cover your mouth and nose with a bent elbow or tissue when you cough or sneeze;<br>
             4. If you develop symptoms or test positive for COVID-19, self-isolate until you recover.</p>
-                
-            
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>3
 
+</body>
         
       
 
