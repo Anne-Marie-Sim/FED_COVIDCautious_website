@@ -1,6 +1,10 @@
 {
-    
-    "locations": []
+    "latest": {
+        "confirmed": 1197405,
+        "deaths": 64606,
+        "recovered": 0 },
+        
+    "locations": [
         {
             "id": 0,
             "country": "Afghanistan",
@@ -18,6 +22,7 @@
                 "recovered": 0
             }
         },
+
         {
             "id": 1,
             "country": "Albania",
