@@ -9,11 +9,11 @@ The website aims to provide a fun and engaging method for users to learn about C
 
 For our gamification element, we have added a Pac-Man style game using JavaScript where the user has to move away from the “infectious” viruses and collect vaccines to win the game. This game teaches users that they can protect themselves and others around them from viruses such as COVID-19 by taking vaccines so that they may do so. 
 
-We imported images and created a layout that functions as a map for the character sprite to make around and programmed it to be interactive with obstacles 
+We imported images and created a layout that functions as a map for the character sprite to move around and programmed it to be interactive with obstacles by avoiding them. There are also "viruses" that chase the sprite around the map.
 
-For our newsroom page, it includes news articles related to Covid-19 as well as current and updated statistics on COVID in Singapore. 
+For our newsroom page, it includes news articles related to Covid-19 as well as current and updated statistics on COVID in Singapore. There is also a graph embedded from the Ministry of Health to show COVID-19 statistics of the number of cases bi-weekly in Singapore. 
 
-The vaccination page contains information on why vaccination is important and essential as well as what type of vaccine is suitable for them to take. It also includes a button that shows users their nearest vaccination location to get vaccinated.
+The vaccination page contains information on why vaccination is important and essential as well as what type of vaccine is suitable for them to take. It also includes a button that bring users to a page where they can identify their nearest vaccination location to get vaccinated.
 
 Sources:
 https://www.moh.gov.sg/covid-19/vaccination 
