@@ -13,7 +13,7 @@ For our newsroom page, it includes news articles related to Covid-19 as well as 
 The vaccination page contains information on why vaccination is important and essential as well as what type of vaccine is suitable for them to take. It also provides Singaporeans about the different types of vaccines available, as well as the locations at which it can be taken at.
 # Design Process
 our wireframe: [https://www.figma.com/file/CT6hOKdsMZRTVKGpLsi8AF/FED-Assignment-2-Wireframe?type=design&node-id=0-1&mode=design&t=FYHdk3rUM7DdBrzO-0](https://www.figma.com/file/CT6hOKdsMZRTVKGpLsi8AF/FED-Assignment-2-Wireframe?type=design&node-id=0%3A1&mode=design&t=FYHdk3rUM7DdBrzO-1)https://www.figma.com/file/CT6hOKdsMZRTVKGpLsi8AF/FED-Assignment-2-Wireframe?type=design&node-id=0%3A1&mode=design&t=FYHdk3rUM7DdBrzO-
-Sources:
+# Sources:
 https://www.moh.gov.sg/covid-19/vaccination 
 https://www.who.int/health-topics/coronavirus#tab=tab_1 
 https://www.moh.gov.sg/covid-19/statistics
