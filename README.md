@@ -26,7 +26,7 @@ Existing features:
 - Feature 3: allows users to be updatd on latest covid 19 related news worldwide by clicking the newspage tab, furthermore, by clicking on your desired article, it directs you directly to the page where the full article can be found.
 - Feature 4: allows users to get information about the various vaccines as well as various important details such as locations of the vaccination centres in Singapore etc by clicking the vaccination bar.
 - Feature 5: allows user to play covid runner(pacman) which users the letters on the keyboard (w(front) ,s(down) ,a(left) ,d(right)), to eat up the dots which represents the virus to eradicate, by clicking COVIDRunner on the navbar.
-- Feature 6: allows users to access the total number of cases around the world and other statistics as well as a world map to find covid hotspots.
+- Feature 6: allows users to access the total number of cases around the world and other statistics as well as a world map to find covid hotspots by clicking the covidmap on the navbar.
 
 Additonal features: 
 - Additional feature 1: In the google maps api, we can use have different colours to represent the different covid hot spots, etc red have many infected in the country, orange being moderately high, yellow being moderate and green being less so as to allow people to identify the covid hotspots.
