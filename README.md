@@ -19,7 +19,19 @@ User stories:
 - As an individual who are experiencing potential symptoms of COVID-19, he/she will go to the home page to read up on the different symptoms of COVID-19, this is done to detect the virus early and to follow the precautions as stated so as to contain the spread of the virus.
 - As an individual who has tested positive for covid-19, he/she will go to the home page to read up on what to do if they are tested positive for COVID-19,  this is done so that they are aware on what to do in the event it happens.
 - As an individual who's intending to travel overseas, the API detects and updates the number of cases in each country, this is so as to make necessary travel arrangements.
-\
+# Features
+Existing features:
+- Feature 1: navigation bar present in each page which goes to each page
+- Feature 2: allows users to get an overview as well as information such as symptoms etc about the coronavirus disease by clicking on the home page. 
+- Feature 3: allows users to be updatd on latest covid 19 related news worldwide by clicking the newspage tab, furthermore, by clicking on your desired article, it directs you directly to the page where the full article can be found.
+- Feature 4: allows users to get information about the various vaccines as well as various important details such as locations of the vaccination centres in Singapore etc by clicking the vaccination bar.
+- Feature 5: allows user to play covid runner(pacman) which users the letters on the keyboard (w(front) ,s(down) ,a(left) ,d(right)), to eat up the dots which represents the virus to eradicate, by clicking COVIDRunner on the navbar.
+- Feature 6: allows users to access the total number of cases around the world and other statistics as well as a world map to find covid hotspots.
+
+Additonal features: 
+- Additional feature 1: In the google maps api, we can use have different colours to represent the different covid hot spots, etc red have many infected in the country, orange being moderately high, yellow being moderate and green being less so as to allow people to identify the covid hotspots.
+- Additionl feature 2: We could have made the game bigger and changed the circles to actual germ fonts and possibly add characters to chanse the germs instead of the circle.
+- Additional feature 3: We could have inserted more articles into the newspage, so as to allow users to have a larger variety of articles to read from.
 # Sources:
 https://www.moh.gov.sg/covid-19/vaccination 
 https://www.who.int/health-topics/coronavirus#tab=tab_1 
